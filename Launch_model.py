@@ -137,4 +137,4 @@ def api_wrapper(args):
   metrics.track_metric("response_time_s", response_time)
 
   
-  return response['prediction']
+  return json.loads(response)['prediction']
