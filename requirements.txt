@@ -1,0 +1,15 @@
+# PyTorch and related packages
+--find-links https://download.pytorch.org/whl/cu121
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+
+sentencepiece
+
+# Reset to default PyPI index for other packages
+--index-url https://pypi.org/simple
+
+# Transformers and supporting libraries
+transformers
+accelerate
+bitsandbytes
