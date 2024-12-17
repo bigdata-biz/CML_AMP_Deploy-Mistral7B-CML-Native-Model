@@ -42,7 +42,7 @@ tasks:
           repetition_penalty: 0.5
 
     target_file_path: Launch_model.py
-    target_function_name: api_wrapper
+    target_function_name: inference
 
   - type: deploy_model
     entity_label: mistral-7b
