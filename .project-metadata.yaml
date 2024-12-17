@@ -15,6 +15,7 @@ runtimes:
   - editor: JupyterLab
     kernel: Python 3.10
     edition: Nvidia GPU
+    version: 2024.10
 
 tasks:
   - type: create_model
