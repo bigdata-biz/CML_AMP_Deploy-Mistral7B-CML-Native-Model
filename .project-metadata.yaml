@@ -8,7 +8,11 @@ prototype_version: 1.1
 environment_variables:
   HF_ACCESS_TOKEN:
     default: ""
-    description: "Access Token to use Mistral 7B model"
+    description: "Hugginface Access Token to use Mistral 7B model"
+    required: true
+  AWS_DEFAULT_REGION:
+    default: "us-west-2"
+    description: "AWS default region"
     required: true
   
 runtimes: 
