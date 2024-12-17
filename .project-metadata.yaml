@@ -12,7 +12,7 @@ environment_variables:
     required: true
 
 runtimes: 
-  - editor: Workbench
+  - editor: JupyterLab
     kernel: Python 3.10
     edition: Nvidia GPU
   
