@@ -1,21 +1,21 @@
 name: Mistral-7B Standalone Model Deployment
 description: This AMP deploys Mistral-7b model as a CML model endpoint, callable via an API. Model is hosted within CML and requires GPU node with 16GB memory and 4 cores minimum.
-author: Cloudera
-date: "2024-1-20"
+author: "Cloudera"
+date: "2024-10-08"
 specification_version: 1.0
-prototype_version: 1.0
+prototype_version: 1.1
 
 environment_variables:
   HF_ACCESS_TOKEN:
     default: ""
     description: "Access Token to use Mistral 7B model"
     required: true
-
+  
 runtimes: 
   - editor: JupyterLab
     kernel: Python 3.10
     edition: Nvidia GPU
-  
+
 tasks:
   - type: create_model
     name: Mistral-7b
